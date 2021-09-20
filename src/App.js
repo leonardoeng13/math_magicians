@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          What the Fuck this shit to run. It's more easy to curse someone than run this shit
+          My first React Set-up!
         </p>
         <a
           className="App-link"
