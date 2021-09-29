@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import { Route, Switch } from 'react-router-dom';
 import Calculator from './Calculator';
 import Homepage from './Homepage';

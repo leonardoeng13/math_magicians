@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import { IoMdClose } from 'react-icons/io';
@@ -34,7 +33,7 @@ const ExpandedMobMenu = (props) => {
 };
 
 ExpandedMobMenu.propTypes = {
-  styles: PropTypes.any.isRequired,
+  styles: PropTypes.objectOf(PropTypes.any).isRequired,
   closeButton: PropTypes.func.isRequired,
 };
 

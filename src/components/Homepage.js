@@ -1,4 +1,3 @@
-/* eslint-disable global-require */
 /* eslint-disable max-len */
 import homepageStyles from './Homepage.module.css';
 

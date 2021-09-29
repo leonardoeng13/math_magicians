@@ -1,10 +1,8 @@
-/* eslint-disable react/forbid-prop-types */
 import { React, useState } from 'react';
 import calculate from '../logic/calculate';
 import Buttons from './Buttons';
 import ResultScreen from './ResultScreen';
 import styles from './Calculator.module.css';
-// import logo from '../assets/logo.jfif';
 
 export default function Calculator() {
   const [calculatorObj, setCalculatorObj] = useState({ total: 0, next: null, operation: null });
