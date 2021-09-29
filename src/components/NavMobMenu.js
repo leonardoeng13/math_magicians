@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
 import { React, useState } from 'react';
 import { ImMenu } from 'react-icons/im';
@@ -20,7 +19,7 @@ const NavMobMenu = (props) => {
 };
 
 NavMobMenu.propTypes = {
-  styles: PropTypes.any.isRequired,
+  styles: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default NavMobMenu;
