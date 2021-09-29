@@ -1,0 +1,8 @@
+{
+  "short_name": "Math Magicians",
+  "name": "Math Magicians Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
