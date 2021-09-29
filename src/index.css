@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 :root {
-  --primary-button-bc-color: #589d74;
+  --primary-button-bc-color: #a2708a;
   --border-color: #f8dfdd;
-  --result-bc-color: #e7a636;
+  --result-bc-color: #824670;
   --result-font-color: #fff;
-  --operators-bc-color: #f2cf92;
+  --operators-bc-color: #bda0bc;
   --button-font-color: #fff;
   --cell-height: 50px;
   --cell-width: 125px;
   --buttons-default-font-size: 20px;
-  --background-color: #3c153b;
-  --header-bc-color: #8b1e3f;
-  --primary-fc-color: #f0c987;
+  --background-color: #2b3a67;
+  --header-bc-color: #496a81;
+  --primary-fc-color: #c1f7dc;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 html,
@@ -24,4 +27,12 @@ body,
 #root {
   background-color: var(--background-color);
   height: 100%;
+}
+
+.footer {
+  background-color: #e0e0e0;
+  width: 100%;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }

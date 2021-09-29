@@ -1,0 +1,47 @@
+.HomepageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    padding-top: 100px;
+    height: 100%;
+  }
+  
+  .HomepageTitle {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--primary-fc-color);
+    margin: 5rem 0 5rem 2rem;
+  }
+  
+  .HomepageParagraph {
+    max-width: 60%;
+    color: var(--primary-fc-color);
+    margin: 0 0 5rem 2rem;
+    text-align: justify;
+  }
+  
+  .decorationContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+  }
+  
+  .HomepageHat {
+    position: relative;
+    width: 100px;
+    bottom: 15%;
+    right: 5%;
+    z-index: 1;
+  }
+  
+  .HomepageStars {
+    position: relative;
+    width: 200px;
+    bottom: 5%;
+    left: 5%;
+    z-index: 1;
+  }

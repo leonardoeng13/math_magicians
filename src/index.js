@@ -1,14 +1,17 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 import './index.css';
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Home />
     </Router>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root'),
 );
