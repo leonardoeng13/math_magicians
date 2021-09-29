@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import PropTypes from 'prop-types';
 import displayResult from '../logic/displayResult';
 
@@ -14,7 +13,7 @@ const ResultScreen = (props) => {
 
 ResultScreen.propTypes = {
   calculatorObj: PropTypes.instanceOf(Object).isRequired,
-  styles: PropTypes.any.isRequired,
+  styles: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
 export default ResultScreen;
