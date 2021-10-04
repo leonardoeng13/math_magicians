@@ -8,6 +8,11 @@ Basic UI of the project:
 
 ![screenshot](print1.png);
 
+## live Demo links
+
+[Heroku](https://leonardoeng13-math-magicians.herokuapp.com/)
+[Netlify](https://leoeng13-mathmagicinas.netlify.app/)
+
 ## Built With
 
 - React
